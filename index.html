@@ -634,7 +634,7 @@
               <input
                 class="review-form-input"
                 type="text"
-                name="user_name"
+                name="user-name"
                 pattern="[A-Za-zА-Яа-яІіЇїЄєҐґʼ]+"
                 id="user-name"
                 required
@@ -675,7 +675,7 @@
             </div>
           </div>
           <div class="review-form-field-message">
-            <label class="review-form-lable" for="user-comment">Comment </label>
+            <label class="review-form-label" for="user-comment">Comment </label>
             <textarea
               class="review-form-message"
               name="user-comment"
@@ -687,11 +687,12 @@
             <input
               class="review-form-checkbox visually-hidden"
               type="checkbox"
-              name="user-accept-policy"
-              id="user-policy"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
               required
             />
-            <label class="review-form-checkbox-label" for="user-policy">
+            <label class="review-form-checkbox-label" for="user-privacy">
               <span class="review-form-own-checkbox">
                 <svg
                   class="review-form-icon-checkbox"
