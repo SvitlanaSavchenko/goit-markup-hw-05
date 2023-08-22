@@ -899,6 +899,12 @@ body {
   fill: var(--light-color-cloud);
 }
 
+.review-form-checkbox:focus
+  + .review-form-checkbox-label
+  .review-form-own-checkbox {
+  border-color: var(--pressed-state-color-ocean);
+}
+
 .review-form-checkbox-label {
   display: block;
   font-size: 12px;
